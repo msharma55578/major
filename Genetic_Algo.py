@@ -4,7 +4,7 @@
 # In[3]:
 
 
-__author__ = 'Shubham'
+__author__ = 'chander'
 import random, numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
@@ -14,7 +14,7 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.feature_selection import SelectFromModel
 from sklearn.model_selection import cross_val_score
 import math
-import Untitled as NN
+import ANN as NN
 
 params = [100, 0.05, 100, 18,
           20]  # [Init pop (pop=100), mut rate (=5%), num generations , chromosome/solution length (18), # winners/per gen]
